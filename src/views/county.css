@@ -1,0 +1,372 @@
+.county-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.county-navbar-container {
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.county-navbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+}
+.county-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.county-image {
+  width: 50px;
+  object-fit: cover;
+}
+.county-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.county-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.county-link {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.county-link1 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.county-link2 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+.county-link3 {
+  text-decoration: none;
+}
+.county-cta-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.county-cta-btn {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: 34px;
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-primary-100);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.county-burger-menu {
+  display: none;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+}
+.county-icon {
+  width: 36px;
+  height: 36px;
+}
+.county-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.county-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.county-image1 {
+  width: 50px;
+  object-fit: cover;
+}
+.county-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.county-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.county-mid {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.county-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.county-link4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.county-link5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.county-link6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.county-link7 {
+  text-decoration: none;
+}
+.county-cta-btn1 {
+  color: var(--dl-color-gray-white);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-fiveunits);
+  border-radius: 34px;
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-primary-100);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.county-bot {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  margin-top: auto;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.county-social-links-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.county-icon04 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.county-icon06 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.county-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.county-section-separator {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-700);
+}
+.county-ul {
+  align-self: center;
+}
+.county-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+.county-container3 {
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.county-image2 {
+  height: 2rem;
+  margin-bottom: 32px;
+}
+.county-nav {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.county-text3 {
+  margin-left: 0px;
+}
+.county-text4 {
+  margin-left: var(--dl-space-space-unit);
+}
+.county-text5 {
+  margin-left: var(--dl-space-space-unit);
+}
+.county-text6 {
+  margin-left: var(--dl-space-space-unit);
+}
+.county-text7 {
+  margin-left: var(--dl-space-space-unit);
+}
+.county-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: 32px;
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: 32px;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.county-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.county-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.county-icon10 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.county-icon12 {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+}
+.county-icon14 {
+  width: 16px;
+  height: 16px;
+}
+@media(max-width: 767px) {
+  .county-links-container {
+    display: none;
+  }
+  .county-burger-menu {
+    display: flex;
+    padding: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-tripleunit);
+    background-color: var(--dl-color-gray-black);
+  }
+  .county-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .county-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .county-image2 {
+    margin-bottom: 24px;
+  }
+  .county-separator {
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .county-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .county-text8 {
+    margin-bottom: 24px;
+  }
+}
+@media(max-width: 479px) {
+  .county-cta-btn {
+    font-size: 16px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .county-burger-menu {
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .county-cta-btn1 {
+    font-size: 16px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .county-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .county-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .county-container4 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .county-text8 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
